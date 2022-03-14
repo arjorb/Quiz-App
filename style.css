@@ -17,6 +17,7 @@ body {
   background: white;
   width: 350px;
   max-width: 100%;
+ min-height: 120px;
   border-radius: 0.6rem;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   padding: 2rem 2rem;
@@ -31,6 +32,9 @@ ul {
 li{
     margin: 1rem 0;
     font-size: 0.8rem;
+}
+h3{
+    text-align: center;
 }
 button {
   background: #8e44ad;

@@ -9,15 +9,15 @@
 </head>
 <body>
     
-    <div class="quiz-container">
-            <h3>Question Text</h3>
+    <div class="quiz-container" id="quiz-el">
+            <h3 id="question_text">Question Text</h3>
         <ul>
-            <li><input type="radio" id="a" name="answer"><label for="a">Question</label></li>
-            <li><input type="radio" id="b" name="answer"><label for="b">Question</label></li>
-            <li><input type="radio" id="c" name="answer"><label for="c">Question</label></li>
-            <li><input type="radio" id="d" name="answer"><label for="d">Question</label></li>
+            <li><input type="radio" id="a" class="answer" name="answer"><label id="a_text" for="a">Question</label></li>
+            <li><input type="radio" id="b" class="answer" name="answer"><label id="b_text" for="b">Question</label></li>
+            <li><input type="radio" id="c" class="answer" name="answer"><label id="c_text" for="c">Question</label></li>
+            <li><input type="radio" id="d" class="answer" name="answer"><label id="d_text" for="d">Question</label></li>
         </ul>
-        <button>Submit</button>
+        <button id="submit">Submit</button>
     </div>
     <script src="script.js"></script>
 </body>
